@@ -1,0 +1,22 @@
+echo "This is some text to go into a file and please delete this file." >> delete1.txt
+cat deletemet.txt
+git status
+git add deleteme.txt 
+git status
+git commit -m "Comment goes here"
+git status
+git push origin master
+
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+
+-----------------------------------
+starting a project from scratch:
+git init fresh-project
+cd fresh-project
+ls
+ls -al
+cd .git
+pwd
+git status
+
